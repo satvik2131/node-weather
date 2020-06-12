@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(38, 63, 63);
+    color:rgb(223, 167, 130);
+    font-family: arial;
+    max-width: 50%;
+    margin: 30px auto;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+header{
+    list-style-type: none;
+    margin: 0px 0px 30px 0px;
+    border-bottom: 1px solid white;
+    border-left-style: groove;
+}
+
+header h1,a{
+    text-decoration: none;
+    color : wheat;
+    margin-left: 20px;
+}
+
+
+footer{
+    border-top:1px solid white;
+    border-right-style: groove;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+
+#txt{
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+input{
+    border : 1px solid white;
+    padding : 8px;
+    margin-top :4px
+
+}
+
+button{
+    cursor: pointer;
+    border : 1px solid slategrey;
+    background-color: slategrey;
+    padding: 5px;
+    margin-top :4px;
+    color: rgb(194, 193, 193)
+}
+
+#msg-1,#msg-2{
+    color:white
+}
+
